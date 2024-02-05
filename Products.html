@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Products available</title>
+    <link rel="stylesheet" href="css/addtocart.css">
+   <script src="https://kit.fontawesome.com/3c7ede25ef.js" crossorigin="anonymous"></script>
+    <script>
+         document.getElementById('cartItem').innerHTML ="Your cart is empty"
+    </script>
+
+</head>
+<body>
+<div class="header">
+    <p class="logo">OUR PRODUCTS</p>
+    <!----icon---->
+    <div class="cart"><i class="fa-solid fa-cart-shopping"></i><p id="count">0</p>    </div>
+</div>
+<br>
+<div class="container">
+    <div id="root"></div>
+    <div class="sidebar">
+        <div class="head"><p>My Cart</p></div>
+        <div id="cartItem">Your cart is empty</div>
+        <div class="foot">
+            <h3>Total</h3>
+            <h2 id="total">Ksh 0.00</h2>
+            <div>
+            <br><br><br>
+                <button>
+                    <a href="index.html" class="btn btn-outline-danger">BACK</a>
+                </button>
+
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<script src="addtocart.js"></script>
+</body>
+</html>
